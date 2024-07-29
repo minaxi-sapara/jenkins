@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('git') {
       steps {
-        sleep 5
         echo 'hi'
       }
     }
